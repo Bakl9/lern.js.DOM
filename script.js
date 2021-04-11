@@ -10,3 +10,11 @@ console.log(input.value);
 console.log(div.innerHTML);
 console.log(p);
 console.log(h1);
+///////////////////////////////////////////////////////////////////////////////////////
+var a = document.querySelector('a');
+var aldHref = a.getAttribute('href');
+
+a.setAttribute('href', 'https://ya.ru');
+a.textContent = 'Yandex'
+
+console.log(a.attributes);
