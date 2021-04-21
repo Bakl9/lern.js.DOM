@@ -54,3 +54,10 @@ h1.addEventListener('mouseleave', function(){
 });
 
 button.addEventListener('click', buttonClick);
+let button = document.querySelector('button');
+
+button.addEventListener('click', buttonClick);
+
+function buttonClick() {
+    console.log('cklicked!');
+};
