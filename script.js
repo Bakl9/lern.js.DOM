@@ -68,3 +68,15 @@ for (var i = 0; i < divs.length; i++) {
          console.log(this.getAttribute('id'))
     }, true);
 };
+
+
+link.addEventListener('click', handleLinkClick);
+
+function handleLinkClick(event) {
+    event.preventDefault()
+
+    var div = divs[0]
+div.style.display = div.style.display == 'none'
+? 'flex'
+: 'none'
+};
