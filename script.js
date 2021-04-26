@@ -80,3 +80,11 @@ div.style.display = div.style.display == 'none'
 ? 'flex'
 : 'none'
 };
+
+
+
+for (var i = 0; i < p.length; i++) {
+    p[i].addEventListener('click', function(event) {
+        event.target.style.color = 'blue'
+    });
+};
