@@ -101,3 +101,7 @@ var wrapper = document.getElementById('wrapper').addEventListener('click', funct
     }
 });
 
+// document.querySelector('#alert').addEventListener('click', function () {
+//     alert('Вы успешно кликнули по кнопке!')
+// });
+
