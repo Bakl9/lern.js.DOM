@@ -105,3 +105,6 @@ var wrapper = document.getElementById('wrapper').addEventListener('click', funct
 //     alert('Вы успешно кликнули по кнопке!')
 // });
 
+// document.querySelector('#confirm').addEventListener('click', function () {
+//     var decision = confirm ('Вы уверены что хотите нежать на кнопку?')
+   
